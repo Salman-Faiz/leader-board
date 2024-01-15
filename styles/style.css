@@ -12,9 +12,7 @@ body {
 
 main {
    
-    background-color: #FFF;
-    width: 1000px;
-    height: 800px;
+ margin: 0px 350px;
   
 
 }
@@ -24,7 +22,11 @@ main {
     color: #562EFF;
 }
 .top-section{
-  
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .top-container {
 }
@@ -53,12 +55,14 @@ hr{
 }
 /* top blog section  ....*/
 .blog-img{
-    width: 224px;
-    height: 127px;
+    width: 123px;
+    height: 90px;
 }
 .blog-name{
     width: 163px;
     height: 68px;
+    font-size: 20px;
+    margin: 0px 0px;
 }
 .blog-container{
     display: flex;
@@ -67,8 +71,11 @@ hr{
 .blogss{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
 }
 .blogger-description{
     width: 124px;
     height: 24px;
+    font-size: 16px;
+    margin-top: 0px;
 }
