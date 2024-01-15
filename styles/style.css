@@ -1,0 +1,41 @@
+/* ......google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* common style and utilities////....... */
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #F3F1FF;
+}
+/* top player and blog styles */
+main{
+
+    width:870px;
+    height:679px;
+    background-color: #FFF;  
+    display: flex;
+    justify-content: center;
+}
+
+.top-section {
+    
+    
+}
+
+.top-player-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-controller {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.player-img{
+    width: 56px;
+    height: 56px;
+}
