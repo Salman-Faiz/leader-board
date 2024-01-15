@@ -79,3 +79,28 @@ hr{
     font-size: 16px;
     margin-top: 0px;
 }
+/*..................... course section */
+
+.course-section{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+   
+}
+.course-img{
+    width: 200px;
+    height: 110px;
+   
+}
+.title{
+    width: 200px;
+    height: 36px;
+    color: #562EFF;
+   margin-left: 195px;
+}
+.courses{
+    background-color: #FFF;
+}
+.course-title{
+    font-size: 18px;
+}
