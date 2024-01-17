@@ -104,3 +104,25 @@ hr{
 .course-title{
     font-size: 18px;
 }
+/*...... font awesome */
+
+.fa-star.filled{
+    color: orange;
+    font-size: 10px;
+}
+.fa-star.empty{
+    color: gray;
+    font-size: 10px;
+}
+.course-info{
+    display: flex;
+    gap: 5px;
+
+}
+.fa-clock{
+    color: orange;
+    font-size: small;
+}
+.course-content{
+    font-size: 12px;
+}
