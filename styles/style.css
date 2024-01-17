@@ -103,6 +103,11 @@ hr{
 }
 .course-title{
     font-size: 18px;
+
+}
+.course-title, .course-des{
+    font-size: 18px;
+    margin: 5px 0px;
 }
 /*...... font awesome */
 
@@ -117,6 +122,7 @@ hr{
 .course-info{
     display: flex;
     gap: 5px;
+    align-items: center;
 
 }
 .fa-clock{
@@ -125,4 +131,5 @@ hr{
 }
 .course-content{
     font-size: 12px;
+    margin: 0px;
 }
